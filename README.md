@@ -165,17 +165,6 @@ Create or open:
 js/config.js
 ```
 
-Add the following configuration:
-
-```javascript
-const API_TOKEN = "YOUR_TMDB_READ_ACCESS_TOKEN";
-const API_URL = "https://api.themoviedb.org/3";
-```
-
-Replace `YOUR_TMDB_READ_ACCESS_TOKEN` with your own token.
-
-**Important:** Never publish your actual API token in a public GitHub repository. A production application should keep API credentials on a backend server.
-
 ### 4. Run the Application
 
 Open `index.html` in your browser.
